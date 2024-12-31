@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* If you have any custom styles, you can add them here using @layer */
+@layer components {
+  /* Your custom component classes go here */
+}
+
+@layer utilities {
+  /* Your custom utility classes go here */
+}
