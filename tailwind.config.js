@@ -1,8 +1,21 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./index.html", "./netlify/functions/*.js"],
+  content: ["./index.html", "./netlify/functions/*.js", "assets"],
   theme: {
-    extend: {},
+    colors: {
+      creme: "#f4ebe2",
+      "light-creme": "#f8f7f4",
+      "dark-creme": "#cec3b2",
+      "dark-blue": "#363b48",
+      "medium-blue": "#75809c",
+      "light-blue": "#b4c4e4",
+      "primary-blue": "#324bf9",
+      "primary-green": "#42ad9e",
+      "primary-black": "#262d32",
+    },
+    fontFamily: {
+      montserrat: ["Montserrat", "serif"],
+      serif: ["DM Serif Display", "serif"],
+    },
   },
   plugins: [],
 };

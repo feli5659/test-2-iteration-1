@@ -2,11 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-/* If you have any custom styles, you can add them here using @layer */
-@layer components {
-  /* Your custom component classes go here */
-}
 
-@layer utilities {
-  /* Your custom utility classes go here */
+/* CUSTOM */
+
+.btn-active {
+   @apply cursor-pointer inline-flex items-center rounded-full px-9 py-3 font-mono text-light-creme bg-primary-black border-2 border-black hover:bg-light-blue transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-80 hover:bg-light-blue hover:text-primary-black duration-200 focus:bg-transparent 
 }
